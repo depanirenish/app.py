@@ -10,4 +10,4 @@ def hello_world():
 
 if __name__ == '__main__':
     # Specify the custom port number here
-    app.run(debug=True, host='44.223.65.235', port=8080)
+    app.run(debug=True, host='0.0.0.0', port=8080)
